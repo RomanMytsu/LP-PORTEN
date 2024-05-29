@@ -1,3 +1,8 @@
+:root {
+  --gray: #969696;
+  --white: #fff;
+  --light-gray: #d0d0d0;
+}
 a {
   text-decoration: none;
 }
@@ -33,12 +38,13 @@ h6 {
 body {
   font-family: "PT Sans", sans-serif;
   background-color: #000;
-  color: #373737;
+  color: var(--gray);
   font-size: 14px;
 }
 .container {
-  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
+  min-width: 320px;
+  max-width: 375px;
 }

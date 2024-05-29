@@ -17,15 +17,270 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
     <title>PORTEN</title>
   </head>
   <body>
     <header class="header container">
-        <div class="header-container">
-            
+      <div class="header-container">
+        <div class="header-top-line">
+          <svg class="header-top-icon" width="16" height="16">
+            <use href="/img/icons.svg#icon-phone"></use>
+          </svg>
+          <address class="contacts">
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a
+                  class="contacts-link"
+                  href="tel:8 (812) 123-45-67 "
+                  target="_blank"
+                  >8 (812) 123-45-67
+                </a>
+              </li>
+              <li class="contacts-item">
+                <p class="contacts-working-hours">
+                  | Працюємо 7 днів на тиждень |
+                </p>
+              </li>
+              <li class="contacts-item">
+                <p class="contacts-working-hours">9:00 — 18:00</p>
+              </li>
+            </ul>
+          </address>
+          <div class="auth">
+            <ul class="auth-list">
+              <li class="auth-item">
+                <svg width="14" height="14">
+                  <use href="/img/icons.svg#icon-log-in"></use>
+                </svg>
+              </li>
+              <li class="auth-item"><a class="auth-link" href="#">Вхід</a></li>
+              <span> / </span>
+              <li class="auth-item">
+                <a class="auth-link" href="#">Реєстрація</a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="header-menu">
+          <nav class="header-nav">
+            <a class="header-logo-link" href="/index.html">PORTEN</a>
+            <ul class="header-list">
+              <li class="header-item">
+                <a class="header-item-link" href="#">сподобалось</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="#">Особистий кабінет</a>
+              </li>
+              <li class="header-item">
+                <a class="header-item-link" href="#">налаштування</a>
+              </li>
+              <li class="header-item">
+                <button class="header-btn">
+                  <svg width="22" height="22">
+                    <use href="/img/icons.svg#icon-basket"></use>
+                  </svg>
+                </button>
+              </li>
+              <li class="header-item">
+                <button class="header-btn">
+                  <svg width="22" height="22">
+                    <use href="/img/icons.svg#icon-search"></use>
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </nav>
+          <div class="open-mob-menu">
+            <span class="open-mob-menu1"></span
+            ><span class="open-mob-menu2"></span>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile menu -->
+      <div class="mob-menu" id="mob-menu">
+        <div class="close-mob-menu"></div>
+        <div class="menu-block">
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">сподобалось</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">Особистий кабінет</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="#">налаштування</a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#"
+                ><svg width="22" height="22">
+                  <use href="/img/icons.svg#icon-basket"></use></svg
+              ></a>
+            </li>
+            <li class="mob-menu-item">
+              <a href="#"
+                ><svg width="22" height="22">
+                  <use href="/img/icons.svg#icon-search"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-wrap">
+            <h1 class="hero-title">PORTEN</h1>
+            <span class="line-hero"></span>
+            <h2 class="hero-subtitle">івано-франківськ</h2>
+          </div>
+          <p class="hero-text">
+            В магазинах Торговельній мережі Porten ви можете купити годинник у
+            Бахмуті, Вінниці, Дніпрі, Житомирі, Запоріжжі, Івано-Франківську,
+            Києві, Краматорську, Луцьку, Львові, Одесі, Покровську, Полтаві,
+            Рівному, Слов'янську, Сумах, Тернополі, Харкові, Херсоні,
+            Хмельницькому, Черкасах, Чернівцях, Чернігові , а також багатьох
+            інших містах України
+          </p>
+        </div>
+      </section>
+      <!-- Season -->
+      <section class="season">
+        <div class="season-container container">
+          <h2 class="season-title">СЕЗОН 2021/22</h2>
+          <span class="season-line"></span>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="wrap">
+                  <picture>
+                    <source
+                      srcset="
+                        /img/season-clock1.webp    1x,
+                        /img/season-clock1-2x.webp 2x
+                      "
+                      media="(min-width: 1920)"
+                    />
+                    <source
+                      srcset="
+                        /img/season-clock1.webp    1x,
+                        /img/season-clock1-2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        /img/season-clock1.webp    1x,
+                        /img/season-clock1-2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="/img/season-clock1.webp"
+                      alt="Season-clock"
+                      width="335"
+                      height="225"
+                    />
+                  </picture>
+                </div>
+                <div class="swiper-content">
+                  <h3 class="season-clock-title">Louis XVI ATHOS</h3>
+                  <p class="season-clock-text">13 600 грн.</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="wrap">
+                  <picture>
+                    <source
+                      srcset="
+                        /img/season-clock2.webp    1x,
+                        /img/season-clock2-2x.webp 2x
+                      "
+                      media="(min-width: 1920)"
+                    />
+                    <source
+                      srcset="
+                        /img/season-clock2.webp    1x,
+                        /img/season-clock2-2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        /img/season-clock2.webp    1x,
+                        /img/season-clock2-2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="/img/season-clock2.webp"
+                      alt="Season-clock"
+                      width="335"
+                      height="225"
+                    />
+                  </picture>
+                </div>
+                <div class="swiper-content">
+                  <h3 class="season-clock-title">Carl von Zeyten</h3>
+                  <p class="season-clock-text">16 500 грн.</p>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="wrap">
+                  <picture>
+                    <source
+                      srcset="
+                        /img/season-clock3.webp    1x,
+                        /img/season-clock3-2x.webp 2x
+                      "
+                      media="(min-width: 1920)"
+                    />
+                    <source
+                      srcset="
+                        /img/season-clock3.webp    1x,
+                        /img/season-clock3-2x.webp 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        /img/season-clock3.webp    1x,
+                        /img/season-clock3-2x.webp 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      src="/img/season-clock3.webp"
+                      alt="Season-clock"
+                      width="335"
+                      height="225"
+                    />
+                  </picture>
+                </div>
+                <div class="swiper-content">
+                  <h3 class="season-clock-title">JORD AR5905</h3>
+                  <p class="season-clock-text">65 000 грн.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/swiper.js"></script>
   </body>
 </html>
