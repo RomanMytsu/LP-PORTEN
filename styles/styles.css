@@ -296,3 +296,47 @@
   cursor: pointer;
   background-color: transparent;
 }
+.collection {
+  padding: 15px 0;
+}
+.collection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.collection-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+.collection-content-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white);
+}
+.collection-content-line {
+  border: 1px solid var(--white);
+  width: 80px;
+}
+.collection-content-text{
+font-size: 8px;
+line-height: 125%;
+text-align: center;
+color: var(--white);
+}
+.collection-content-btn{
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-align: center;
+color: var(--white);
+background-color: transparent;
+border: 1px solid var(--white);
+padding: 12px 28px;
+}
