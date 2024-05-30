@@ -324,19 +324,59 @@
   border: 1px solid var(--white);
   width: 80px;
 }
-.collection-content-text{
-font-size: 8px;
-line-height: 125%;
-text-align: center;
-color: var(--white);
+.collection-content-text {
+  font-size: 8px;
+  line-height: 125%;
+  text-align: center;
+  color: var(--white);
 }
-.collection-content-btn{
-font-size: 12px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-text-align: center;
-color: var(--white);
-background-color: transparent;
-border: 1px solid var(--white);
-padding: 12px 28px;
+.collection-content-btn {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white);
+  background-color: transparent;
+  border: 1px solid var(--white);
+  padding: 12px 28px;
+}
+.arrivals {
+  padding: 120px 0;
+}
+.arrivals-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.arrivals-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white);
+}
+.arrivals-line {
+  border: 1px solid var(--white);
+  width: 80px;
+}
+.swipe-btn-wrap {
+  position: absolute;
+  top: 40%;
+  left: 27%;
+  z-index: 2;
+}
+.swipe-btn {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 12px 28px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
