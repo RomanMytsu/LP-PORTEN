@@ -1,9 +1,15 @@
-.header-top-line {
+.top-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 14px 0 14px 0;
+  padding: 14px 0;
 }
+.top-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .contacts-link {
   font-size: 12px;
   color: var(--gray);
@@ -11,21 +17,26 @@
 .contacts-working-hours {
   font-size: 12px;
 }
-.auth-list {
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.top-right-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.auth-link {
+.top-right-link {
   font-size: 12px;
   color: var(--gray);
 }
-.header-menu {
+.header-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #0f0f0f;
-  padding: 15px 0 15px 15px;
+  padding: 15px 0;
 }
 .header-list,
 #mob-menu {

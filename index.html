@@ -23,16 +23,17 @@
     />
     <link rel="stylesheet" href="/styles/reset.css" />
     <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/media.css" />
     <title>PORTEN</title>
   </head>
   <body>
-    <header class="header container">
-      <div class="header-container">
-        <div class="header-top-line">
-          <svg class="header-top-icon" width="16" height="16">
-            <use href="/img/icons.svg#icon-phone"></use>
-          </svg>
-          <address class="contacts">
+    <header class="header">
+      <div class="header-container container">
+        <div class="top-line">
+          <div class="top-left">
+            <svg class="header-top-icon" width="16" height="16">
+              <use href="/img/icons.svg#icon-phone"></use>
+            </svg>
             <ul class="contacts-list">
               <li class="contacts-item">
                 <a
@@ -51,57 +52,57 @@
                 <p class="contacts-working-hours">9:00 — 18:00</p>
               </li>
             </ul>
-          </address>
-          <div class="auth">
-            <ul class="auth-list">
-              <li class="auth-item">
-                <svg width="14" height="14">
-                  <use href="/img/icons.svg#icon-log-in"></use>
-                </svg>
+          </div>
+
+          <div class="top-right">
+            <svg width="14" height="14">
+              <use href="/img/icons.svg#icon-log-in"></use>
+            </svg>
+            <ul class="top-right-list">
+              <li class="top-right-item">
+                <a class="top-right-link" href="#">Вхід</a>
               </li>
-              <li class="auth-item"><a class="auth-link" href="#">Вхід</a></li>
               <span> / </span>
-              <li class="auth-item">
-                <a class="auth-link" href="#">Реєстрація</a>
+              <li class="top-right-item">
+                <a class="top-right-link" href="#">Реєстрація</a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="header-menu">
-          <nav class="header-nav">
-            <a class="header-logo-link" href="/index.html">PORTEN</a>
-            <ul class="header-list">
-              <li class="header-item">
-                <a class="header-item-link" href="#">сподобалось</a>
-              </li>
-              <li class="header-item">
-                <a class="header-item-link" href="#">Особистий кабінет</a>
-              </li>
-              <li class="header-item">
-                <a class="header-item-link" href="#">налаштування</a>
-              </li>
-              <li class="header-item">
-                <button class="header-btn">
-                  <svg width="22" height="22">
-                    <use href="/img/icons.svg#icon-basket"></use>
-                  </svg>
-                </button>
-              </li>
-              <li class="header-item">
-                <button class="header-btn">
-                  <svg width="22" height="22">
-                    <use href="/img/icons.svg#icon-search"></use>
-                  </svg>
-                </button>
-              </li>
-            </ul>
-          </nav>
+        <nav class="header-nav">
+          <a class="header-logo-link" href="/index.html">PORTEN</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-item-link" href="#">сподобалось</a>
+            </li>
+            <li class="header-item">
+              <a class="header-item-link" href="#">Особистий кабінет</a>
+            </li>
+            <li class="header-item">
+              <a class="header-item-link" href="#">налаштування</a>
+            </li>
+            <li class="header-item">
+              <button class="header-btn">
+                <svg width="22" height="22">
+                  <use href="/img/icons.svg#icon-basket"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="header-item">
+              <button class="header-btn">
+                <svg width="22" height="22">
+                  <use href="/img/icons.svg#icon-search"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
           <div class="open-mob-menu">
             <span class="open-mob-menu1"></span
             ><span class="open-mob-menu2"></span>
           </div>
-        </div>
+        </nav>
       </div>
+
       <!-- Mobile menu -->
       <div class="mob-menu" id="mob-menu">
         <div class="close-mob-menu"></div>
