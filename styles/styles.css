@@ -473,9 +473,120 @@
   width: 120px;
   margin: 22px 0;
 }
-.partners-list{
+.partners-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+}
+
+.footer {
+  padding-top: 80px;
+  background-color: #c4c4c4;
+  background-image: url(/img/footer-bg.webp);
+  max-width: 1920px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about-text {
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--white);
+}
+.category-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 6px;
+}
+.category-link {
+  line-height: 150%;
+  color: var(--light-gray);
+  background-color: #0f0f0f;
+  padding: 10px 20px;
+}
+
+.mailing-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mailing-text {
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--white);
+  margin-bottom: 26px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.input {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  padding: 8px 16px;
+  width: 210px;
+  height: 42px;
+}
+.input::placeholder {
+  color: var(--light-gray);
+}
+.form-btn {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  background-color: #0f0f0f;
+  border: none;
+  padding: 10px 20px;
+}
+.footer-line {
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 17px;
+  margin-top: 20px;
+}
+.copywraite {
+  font-size: 10px;
+  color: var(--light-gray);
+}
+.agreement {
+  font-size: 10px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-align: right;
+  color: var(--light-gray);
 }
