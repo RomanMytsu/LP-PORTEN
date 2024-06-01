@@ -73,7 +73,97 @@
     font-size: 16px;
     margin-top: 80px;
   }
-  .season{
+  /* .season {
     padding: 93px 0;
+  } */
+  .season-wrap {
+    padding: 45px 40px;
+  }
+  .swiper {
+    display: none;
+  }
+  .season-title {
+    font-size: 36px;
+  }
+  .season-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .season-img-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .season-img-item img {
+    background-color: #191b1c;
+  }
+  .swiper-img-content {
+    padding-top: 25px;
+  }
+  .swiper-clock-title {
+    margin-bottom: 10px;
+  }
+  .new-collection-content {
+    padding: 435px 47px 40px;
+  }
+  .new-collection-title {
+    font-size: 36px;
+  }
+  .new-collection-line {
+    width: 120px;
+  }
+  .new-collection-link {
+    font-size: 18px;
+    padding: 12px 28px;
+  }
+  .collection {
+    padding: 30px 0;
+  }
+  .collection-content-title {
+    font-size: 36px;
+  }
+  .collection-content-line {
+    width: 120px;
+  }
+  .collection-content-text {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .collection-content-btn {
+    font-size: 18px;
+  }
+  .arrivals-title {
+    font-size: 36px;
+  }
+  .arrivals-line {
+    width: 120px;
+    margin: 30px 0;
+  }
+  .arrivals-img-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px 23px;
+  }
+  .arrivals-img-item img {
+    background-color: #191b1c;
+  }
+  .arrivals-img-item {
+    width: calc((100% - 23px) / 2);
+    max-width: 260px;
+  }
+  .arrivals-img-content {
+    padding-top: 25px;
+  }
+  .swipe-btn-wrap {
+    top: 834%;
+    left: 54%;
+  }
+  .swipe-link {
+    font-size: 18px;
   }
 }

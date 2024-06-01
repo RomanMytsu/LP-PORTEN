@@ -156,12 +156,12 @@
       <!-- Season -->
       <section class="season">
         <div class="season-container container">
-          <h2 class="season-title">СЕЗОН 2021/22</h2>
-          <span class="season-line"></span>
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="wrap">
+          <div class="season-wrap">
+            <h2 class="season-title">СЕЗОН 2021/22</h2>
+            <hr class="season-line" />
+            <div class="season-img">
+              <ul class="season-img-list">
+                <li class="season-img-item">
                   <img
                     srcset="
                       /img/season-clock1.webp    1x,
@@ -172,15 +172,12 @@
                     width="215"
                     height="264"
                   />
-                </div>
-                <div class="swiper-content">
-                  <h3 class="season-clock-title">Louis XVI ATHOS</h3>
-                  <p class="season-clock-text">13 600 грн.</p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="wrap">
+                  <div class="swiper-img-content">
+                    <h3 class="swiper-clock-title">Louis XVI ATHOS</h3>
+                    <p class="swiper-clock-text">13 600 грн.</p>
+                  </div>
+                </li>
+                <li class="season-img-item">
                   <img
                     srcset="
                       /img/season-clock2.webp    1x,
@@ -191,15 +188,12 @@
                     width="215"
                     height="264"
                   />
-                </div>
-                <div class="swiper-content">
-                  <h3 class="season-clock-title">Carl von Zeyten</h3>
-                  <p class="season-clock-text">16 500 грн.</p>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="wrap">
+                  <div class="swiper-img-content">
+                    <h3 class="swiper-clock-title">Carl von Zeyten</h3>
+                    <p class="swiper-clock-text">16 500 грн.</p>
+                  </div>
+                </li>
+                <li class="season-img-item">
                   <img
                     srcset="
                       /img/season-clock3.webp    1x,
@@ -210,24 +204,83 @@
                     width="215"
                     height="264"
                   />
+                  <div class="swiper-img-content">
+                    <h3 class="swiper-clock-title">JORD AR5905</h3>
+                    <p class="swiper-clock-text">65 000 грн.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="wrap">
+                    <img
+                      srcset="
+                        /img/season-clock1.webp    1x,
+                        /img/season-clock1-2x.webp 2x
+                      "
+                      src="/img/season-clock1.webp"
+                      alt="Season-clock"
+                      width="215"
+                      height="264"
+                    />
+                  </div>
+                  <div class="swiper-content">
+                    <h3 class="swiper-clock-title">Louis XVI ATHOS</h3>
+                    <p class="swiper-clock-text">13 600 грн.</p>
+                  </div>
                 </div>
-                <div class="swiper-content">
-                  <h3 class="season-clock-title">JORD AR5905</h3>
-                  <p class="season-clock-text">65 000 грн.</p>
+
+                <div class="swiper-slide">
+                  <div class="wrap">
+                    <img
+                      srcset="
+                        /img/season-clock2.webp    1x,
+                        /img/season-clock2-2x.webp 2x
+                      "
+                      src="/img/season-clock2.webp"
+                      alt="Season-clock"
+                      width="215"
+                      height="264"
+                    />
+                  </div>
+                  <div class="swiper-content">
+                    <h3 class="swiper-clock-title">Carl von Zeyten</h3>
+                    <p class="swiper-clock-text">16 500 грн.</p>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="wrap">
+                    <img
+                      srcset="
+                        /img/season-clock3.webp    1x,
+                        /img/season-clock3-2x.webp 2x
+                      "
+                      src="/img/season-clock3.webp"
+                      alt="Season-clock"
+                      width="215"
+                      height="264"
+                    />
+                  </div>
+                  <div class="swiper-content">
+                    <h3 class="swiper-clock-title">JORD AR5905</h3>
+                    <p class="swiper-clock-text">65 000 грн.</p>
+                  </div>
                 </div>
               </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
           </div>
-        </div>
-      </section>
-      <!-- New Collection -->
-      <section class="new-collection">
-        <div class="new-collection-container container">
-          <h2 class="new-collection-title">Нова колекція</h2>
-          <span class="new-collection-line"></span>
-          <button type="button" class="new-collection-btn">Каталог</button>
+          <div class="new-collection">
+            <div class="new-collection-content">
+              <h2 class="new-collection-title">Нова колекція</h2>
+              <hr class="new-collection-line" />
+              <a class="new-collection-link" href="#">Каталог</a>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Collection 2018 -->
@@ -245,7 +298,7 @@
           />
           <div class="collection-content">
             <h2 class="collection-content-title">колекція 2018</h2>
-            <span class="collection-content-line"></span>
+            <hr class="collection-content-line" />
             <p class="collection-content-text">
               Годинники як інструмент визначення часу давно і надійно прижилися
               в людській реальності. Романтики та прагматики, художники та
@@ -287,8 +340,8 @@
                   />
                 </div>
                 <div class="swiper-content">
-                  <h3 class="season-clock-title">Carl von Zeyten</h3>
-                  <p class="season-clock-text">16 500 грн.</p>
+                  <h3 class="swiper-clock-title">Carl von Zeyten</h3>
+                  <p class="swiper-clock-text">16 500 грн.</p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -305,8 +358,8 @@
                   />
                 </div>
                 <div class="swiper-content">
-                  <h3 class="season-clock-title">JORD AR5905</h3>
-                  <p class="season-clock-text">65 000 грн.</p>
+                  <h3 class="swiper-clock-title">JORD AR5905</h3>
+                  <p class="swiper-clock-text">65 000 грн.</p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -323,8 +376,8 @@
                   />
                 </div>
                 <div class="swiper-content">
-                  <h3 class="season-clock-title">Emporio Armani Sportivo</h3>
-                  <p class="season-clock-text">165 000 грн.</p>
+                  <h3 class="swiper-clock-title">Emporio Armani Sportivo</h3>
+                  <p class="swiper-clock-text">165 000 грн.</p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -341,8 +394,8 @@
                   />
                 </div>
                 <div class="swiper-content">
-                  <h3 class="season-clock-title">Rolex Oyster Perpetual</h3>
-                  <p class="season-clock-text">280 000 грн.</p>
+                  <h3 class="swiper-clock-title">Rolex Oyster Perpetual</h3>
+                  <p class="swiper-clock-text">280 000 грн.</p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -359,8 +412,8 @@
                   />
                 </div>
                 <div class="swiper-content">
-                  <h3 class="season-clock-title">Louis XVI ATHOS</h3>
-                  <p class="season-clock-text">65 000 грн.</p>
+                  <h3 class="swiper-clock-title">Louis XVI ATHOS</h3>
+                  <p class="swiper-clock-text">65 000 грн.</p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -374,8 +427,8 @@
                   />
                 </div>
                 <div class="swiper-content">
-                  <h3 class="season-clock-title">U-Boat Italo Fontana</h3>
-                  <p class="season-clock-text">18 700 грн.</p>
+                  <h3 class="swiper-clock-title">U-Boat Italo Fontana</h3>
+                  <p class="swiper-clock-text">18 700 грн.</p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -392,8 +445,8 @@
                   />
                 </div>
                 <div class="swiper-content">
-                  <h3 class="season-clock-title">Gucci Men's G</h3>
-                  <p class="season-clock-text">38 500 грн.</p>
+                  <h3 class="swiper-clock-title">Gucci Men's G</h3>
+                  <p class="swiper-clock-text">38 500 грн.</p>
                 </div>
               </div>
               <div class="swiper-slide">
@@ -410,13 +463,137 @@
                     height="264"
                   />
                   <div class="swipe-btn-wrap">
-                    <a class="swipe-link"> ПОКАЗАТИ ВСІ </a>
+                    <a href="#" class="swipe-link"> ПОКАЗАТИ ВСІ </a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
+          </div>
+
+          <div class="arrivals-img">
+            <ul class="arrivals-img-list">
+              <li class="arrivals-img-item">
+                <img
+                  srcset="
+                    /img/season-clock2.webp    1x,
+                    /img/season-clock2-2x.webp 2x
+                  "
+                  src="/img/season-clock2.webp"
+                  alt="Carl von Zeyten"
+                  width="215"
+                  height="264"
+                />
+                <div class="arrivals-img-content">
+                  <h3 class="swiper-clock-title">Carl von Zeyten</h3>
+                  <p class="swiper-clock-text">16 500 грн.</p>
+                </div>
+              </li>
+              <li class="arrivals-img-item">
+                <img
+                  srcset="
+                    /img/season-clock3.webp    1x,
+                    /img/season-clock3-2x.webp 2x
+                  "
+                  src="/img/season-clock3.webp"
+                  alt="JORD AR5905"
+                  width="215"
+                  height="264"
+                />
+                <div class="arrivals-img-content">
+                  <h3 class="swiper-clock-title">JORD AR5905</h3>
+                  <p class="swiper-clock-text">65 000 грн.</p>
+                </div>
+              </li>
+              <li class="arrivals-img-item">
+                <img
+                  srcset="
+                    /img/armani-clock.webp   1x,
+                    /img/armani-clock2x.webp 2x
+                  "
+                  src="/img/armani-clock.webp"
+                  alt="Emporio Armani Sportivo"
+                  width="215"
+                  height="264"
+                />
+                <div class="arrivals-img-content">
+                  <h3 class="swiper-clock-title">Emporio Armani Sportivo</h3>
+                  <p class="swiper-clock-text">165 000 грн.</p>
+                </div>
+              </li>
+              <li class="arrivals-img-item">
+                <img
+                  srcset="/img/rolex-clock.webp 1x, /img/rolex-clock2x.webp 2x"
+                  src="/img/rolex-clock.webp"
+                  alt="Rolex Oyster Perpetual"
+                  width="215"
+                  height="264"
+                />
+                <div class="arrivals-img-content">
+                  <h3 class="swiper-clock-title">Rolex Oyster Perpetual</h3>
+                  <p class="swiper-clock-text">280 000 грн.</p>
+                </div>
+              </li>
+              <li class="arrivals-img-item">
+                <img
+                  srcset="
+                    /img/season-clock1.webp    1x,
+                    /img/season-clock1-2x.webp 2x
+                  "
+                  src="/img/season-clock1.webp"
+                  alt="Louis XVI ATHOS"
+                  width="215"
+                  height="264"
+                />
+                <div class="arrivals-img-content">
+                  <h3 class="swiper-clock-title">Louis XVI ATHOS</h3>
+                  <p class="swiper-clock-text">65 000 грн.</p>
+                </div>
+              </li>
+              <li class="arrivals-img-item">
+                <img
+                  srcset="/img/boat-clock.webp 1x, /img/boat-clock2x.webp 2x"
+                  src="/img/boat-clock.webp"
+                  alt="U-Boat Italo Fontana"
+                  width="215"
+                  height="264"
+                />
+                <div class="arrivals-img-content">
+                  <h3 class="swiper-clock-title">U-Boat Italo Fontana</h3>
+                  <p class="swiper-clock-text">18 700 грн.</p>
+                </div>
+              </li>
+              <li class="arrivals-img-item">
+                <img
+                  srcset="/img/gucci-clock.webp 1x, /img/gucci-clock2x.webp 2x"
+                  src="/img/gucci-clock.webp"
+                  alt="Gucci Men's G"
+                  width="215"
+                  height="264"
+                />
+                <div class="arrivals-img-content">
+                  <h3 class="swiper-clock-title">Gucci Men's G</h3>
+                  <p class="swiper-clock-text">38 500 грн.</p>
+                </div>
+              </li>
+              <li class="arrivals-img-item">
+                <img
+                  class="blur"
+                  srcset="
+                    /img/season-clock3.webp    1x,
+                    /img/season-clock3-2x.webp 2x
+                  "
+                  src="/img/season-clock3.webp"
+                  alt="JORD AR5905"
+                  width="215"
+                  height="264"
+                />
+                <div class="swipe-btn-wrap">
+                  <a href="#" class="swipe-link"> ПОКАЗАТИ ВСІ </a>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
