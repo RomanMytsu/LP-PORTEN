@@ -73,9 +73,6 @@
     font-size: 16px;
     margin-top: 80px;
   }
-  /* .season {
-    padding: 93px 0;
-  } */
   .season-wrap {
     padding: 45px 40px;
   }
@@ -153,7 +150,7 @@
     background-color: #191b1c;
   }
   .arrivals-img-item {
-    width: calc((100% - 23px) / 2);
+    width: calc((100% - 23px) / 3);
     max-width: 260px;
   }
   .arrivals-img-content {
@@ -185,6 +182,7 @@
   }
   .partners-list {
     flex-wrap: nowrap;
+    align-items: center;
   }
 
   .category-item {
@@ -192,5 +190,120 @@
   }
   .form {
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1920px;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero {
+    padding: 160px 0;
+  }
+  .hero-text {
+    max-width: 40%;
+    align-content: center;
+  }
+  .season-container {
+    flex-direction: inherit;
+  }
+  .season-wrap {
+    padding: 50px 80px;
+    width: 100%;
+  }
+  .new-collection-content {
+    padding: 484px 257px 100px;
+  }
+  .collection-container {
+    flex-direction: row;
+  }
+  .collection-content {
+    padding: 100px 164px;
+  }
+  .collection-content-btn {
+    margin-top: 64px;
+  }
+  .arrivals {
+    padding: 120px 0 150px 0;
+  }
+  .arrivals-line {
+    margin: 39px 0 81px 0;
+  }
+  .arrivals-img-item {
+    width: calc((100% - 23px * 3) / 4);
+  }
+  .info-item {
+    display: flex;
+    flex-direction: row;
+  }
+  .info-content {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+  .info-content-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 53px 136px;
+  }
+  .hastag-wrap {
+    margin-top: 40px;
+  }
+  .footer {
+    padding-top: unset;
+  }
+  .footer-container {
+    flex-direction: row;
+    gap: 31px;
+    padding: 80px 0;
+    align-items: baseline;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .about-title {
+    margin-bottom: 40px;
+  }
+  .about-text {
+    width: 350px;
+  }
+  .category {
+    display: flex;
+    flex-direction: column;
+  }
+  .category-title {
+    margin-bottom: 40px;
+  }
+  .category-list {
+    flex-wrap: wrap;
+    gap: 20px 6px;
+  }
+  .category-item {
+    width: calc((100% - 6px) / 3);
+  }
+  .mailing-title {
+    margin-bottom: 40px;
+  }
+  .mailing-text {
+    width: 350px;
   }
 }
