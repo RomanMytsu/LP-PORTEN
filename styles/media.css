@@ -166,4 +166,31 @@
   .swipe-link {
     font-size: 18px;
   }
+  .info-title {
+    font-size: 36px;
+  }
+  .info-line {
+    width: 120px;
+    margin: 36px 0 56px 0;
+  }
+  .info-link {
+    font-size: 18px;
+    padding: 12px 28px;
+  }
+  .info-hastag {
+    font-size: 18px;
+  }
+  .our-partners-line {
+    margin: 23px 0 74px 0;
+  }
+  .partners-list {
+    flex-wrap: nowrap;
+  }
+
+  .category-item {
+    width: calc((100% - 12px) / 4);
+  }
+  .form {
+    justify-content: center;
+  }
 }

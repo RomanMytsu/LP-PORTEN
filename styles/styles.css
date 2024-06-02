@@ -420,7 +420,7 @@
 .info-line {
   border: 1px solid var(--white);
   width: 80px;
-  margin: 23px 0 30px 0;
+  margin: 23px 0;
 }
 .info-list {
   display: flex;
@@ -451,7 +451,6 @@
   border: 1px solid var(--white);
   padding: 6px 12px;
   background-color: transparent;
-  cursor: pointer;
 }
 .hastag-wrap {
   display: flex;
@@ -536,8 +535,14 @@
 }
 .category-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 20px 6px;
+  gap: 10px 6px;
+}
+.category-item{
+  width: calc((100% - 6px) / 2);
+  height: 41px;
 }
 .category-link {
   line-height: 150%;
